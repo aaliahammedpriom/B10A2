@@ -1,0 +1,542 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.main{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;;
+    font-family: "Inter", sans-serif;
+    background: rgb(0,0,0);
+}
+.header-bg{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119,0.2) 100%);
+}
+.navbar{
+    width: 73%;
+    margin: 39px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    color: rgb(230, 83, 60);
+    font-size: 2.5vw;
+    font-weight: 800;
+    font-style: italic;
+}
+.nav-link{
+    width: 46.5%;
+    height:100%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 27px;
+    padding:4px;
+    align-items: center;
+}
+.nav-link button{
+    width: 160%;
+    height: 46px;
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+    align-items: center;
+    
+}
+.nav-link > ul{
+    display: flex;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+    align-items: center;
+    margin: auto;
+    height: 100%;
+}
+.nav-link a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding-right: 5px;
+    font-size: 1.125vw;
+}
+
+.section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.section-left{
+    width: 41.59%;
+    height: 100%;
+    margin-right: 6.180%;
+}
+.section-left h1{
+    color: rgb(255, 255, 255);
+    font-size: 5.27vw;
+    font-weight: 900;
+    width: 86.81%;
+    
+}
+.section-left p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.1vw;
+    font-weight: 400;
+    width: 86.81%;
+    margin-bottom: 2vh;
+}
+.btn1{
+    border-radius: 5vw;
+    background-color: rgb(230, 83, 60);
+    width: 15.56vw;
+    padding: 1.4vh 1.875vw;
+    margin: 0px 10px;
+    color: rgb(255, 255, 255);
+    font-size: 1.25vw;
+    font-weight: 600;
+}
+.section-left .btn2{
+    background-color: black;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+
+}
+.section-right{
+    width:24.23% ;
+    height: 100%;
+}
+.section-right img{
+    width: 100%;
+    height: 100%;
+}
+.section .video-tutorial{
+    width: 14.30%;
+    height:13.42% ;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    position: absolute;
+    left: 55.06%;
+}
+.section .video-tutorial .dot{
+    background-color: rgb(230, 83, 60);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.section .video-tutorial title{
+    width: 74px;
+    height:38px ;
+}
+.section .video-tutorial h3{
+    color: rgb(250, 250, 249);
+    font-size: 16px;
+    font-weight: 900;
+    text-align: left;
+}
+.section .video-tutorial p{
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.section .workout-tutorial{
+    width: 133px;
+    height:67px ;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    position: absolute;
+    left: 75%;
+    top: 266px;
+}
+.section .workout-tutorial h3{
+    color: rgb(250, 250, 249);
+    font-size: 27.5px;
+    font-weight: 900;
+    margin: 0px;
+}
+.section .workout-tutorial p{
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 9px;
+    font-weight: 400;
+}
+.habbits{
+    width: 72.5%;
+    text-align: center;
+    margin: auto;
+}
+.habbits > h1{
+    color: rgb(255, 255, 255);
+    font-size: 3.33vw;
+    font-weight: 900;
+}
+.habbits > p{
+    width: 462px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .972vw;
+    font-weight: 400;
+    margin: auto ;
+    margin-bottom: 58px;
+}
+.habbits-container{
+    width: 16vw;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+.habbits-container .imgs{
+   
+   
+}
+.habbits-container img{
+    width: 16.66vw;
+    border: .34vw solid rgb(30, 29, 29);
+    border-radius: 50%;
+    margin: auto .5vw;
+}
+.habbits-container h3{
+    color: rgb(255, 255, 255);
+    font-size: 1.25vw;
+    font-weight: 600;
+    margin-top: 25px;
+}
+.habbits-container p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .97vw;
+    font-weight: 400;
+    padding: 1vw;
+}
+
+.conteiner3{
+    width: 73.61vw;
+    border-radius: 1.25vw;
+    background: rgb(34, 34, 34);
+    display: flex;
+    margin: auto;
+}
+.conteiner3-left{
+    width: 50%;
+    margin: 0 5% 10.81% 5%;
+}
+.conteiner3-left h1{
+    color: rgb(255, 255, 255);
+    font-size: 3.33vw;
+    font-weight: 900;
+}
+.conteiner3-left p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.97vw;
+    font-weight: 400;
+}
+.conteiner3-right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteiner3-right img{
+    border-radius:1.25vw ;
+    width: 90%;
+    height: 80%;
+}
+
+.conteiner4{
+    width: 73.61vw;
+    margin: 50px auto;
+}
+.conteiner4 h1{
+    color: rgb(255, 255, 255);
+    font-size: 3.33vw;
+    font-weight: 900;
+}
+.conteiner4 p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.25vw;
+    font-weight: 400;
+}
+
+.conteiner5{
+    width: 46.6%;
+    margin: auto;
+}
+.conteiner5 h1{
+    color: rgb(255, 255, 255);
+    font-size: 3.33vw;
+    font-weight: 900;
+}
+.conteiner5 p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.25vw;
+    font-weight: 400;
+    padding-bottom: 88px;
+}
+
+@media screen and (max-width: 576px){
+
+    .main{
+        margin: 0px 20px;
+        padding: 0px;
+        width: 576px;
+        font-family: "Inter", sans-serif;
+        background-color: black;
+    }
+    .navbar{
+        width: 353px;
+        display: flex;
+        margin: 0px 20px;
+    }
+    .nav-title{
+        color: rgb(230, 83, 60);
+        font-family: Inter;
+        font-size: 36px;
+        font-weight: 800;
+        padding: ;
+
+    }
+    .nav-link{
+        width: 320px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 27px;
+        padding: 4px;
+    }
+    .nav-link > ul{
+        display: flex;
+        list-style-type: none;
+        padding: 0px;
+        
+    }
+    .nav-link a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        padding-right: 32px;
+    }
+    
+    .section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 20px;
+    }
+    .section-left{
+        width: 352px;
+        margin-right: 60px;
+    }
+    .section-left h1{
+        width:285px ;
+        color: rgb(255, 255, 255);
+        font-size: 36px;
+        font-weight: 900;
+    }
+    .section-left p{
+        width: 274px;
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .btn-flex{
+        display: flex;
+    }
+    .btn1{
+        border-radius: 28px;
+        background-color: rgb(230, 83, 60);
+        width: 169px;
+        height: 54px;
+        padding: 11px 27px;
+        margin: 0px 10px;
+        color: rgb(255, 255, 255);
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .section-left .btn2{
+        background-color: black;
+        box-sizing: border-box;
+        border: 1px solid rgb(255, 255, 255);
+    
+    }
+    .section-right img{
+        width: 430px;
+        height: 600px;
+    }
+    .section .video-tutorial{
+        width: 155px;
+        height:66px ;
+        box-sizing: border-box;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        backdrop-filter: blur(20px);
+        background: rgba(48, 48, 48, 0.54);
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        position: absolute;
+        left: 50px;
+        top: 750px;
+    }
+    .section .video-tutorial .dot{
+        background-color: rgb(230, 83, 60);
+        width: 27.5px;
+        height: 27.5px;
+        border-radius: 50%;
+    }
+    .section .video-tutorial title{
+        width: 74px;
+        height:38px ;
+    }
+    .section .video-tutorial h3{
+        color: rgb(250, 250, 249);
+        font-size: 16px;
+        font-weight: 900;
+        text-align: left;
+    }
+    .section .video-tutorial p{
+        color: rgba(239, 237, 232, 0.65);
+        font-size: 11px;
+        font-weight: 400;
+    }
+    .section .workout-tutorial{
+        width: 145px;
+        height:66px ;
+        box-sizing: border-box;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        backdrop-filter: blur(20px);
+        background: rgba(48, 48, 48, 0.54);
+        text-align: center;
+        align-items: center;
+        padding: 5px;
+        position: absolute;
+        left: 284px;
+        top: 580px;
+    }
+    .section .workout-tutorial h3{
+        color: rgb(250, 250, 249);
+        font-size: 27.5px;
+        font-weight: 900;
+        margin: 0px;
+    }
+    .section .workout-tutorial p{
+        color: rgba(239, 237, 232, 0.65);
+        font-size: 9px;
+        font-weight: 400;
+    }
+    .habbits{
+        width: 338px;
+    }
+    .habbits > h1{
+        color: rgb(255, 255, 255);
+        font-size: 37px;
+        font-weight: 900;
+        margin-top: 5px;
+    }
+    .habbits > p{
+        width: 231px;
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 10px;
+        font-weight: 400;
+        margin-bottom: 58px;
+    }
+    .habbits-container{
+        width: 231px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        text-align: center;
+    
+    }
+    .habbits-container-img{
+        width: 240px;
+        margin: auto;
+    }
+    .habbits-container .imgs{
+        width: 150px;
+        height: 150px;
+        margin: auto;
+    }
+    .habbits-container img{
+        width: 240px;
+        height: 240px;
+        border-radius: 50%;
+        border: 5px solid rgb(30, 29, 29);
+    }
+    .habbits-container h3{
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 25px;
+    }
+    .habbits-container p{
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 36px;
+    }
+    .conteiner3{
+        width: 73.61vw;
+        border-radius: 18px;
+        background: rgb(34, 34, 34);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+    .conteiner3-left{
+        width: 80%;
+        margin: auto;
+    }
+    .conteiner3-left h1{
+        color: rgb(255, 255, 255);
+        font-size: 32px;
+        font-weight: 900;
+    }
+    .conteiner3-left p{
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .conteiner3-right{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .conteiner3-right img{
+        width: 80%;
+        border-radius: 18px;
+        margin: 30px auto;
+    }
+
+    .conteiner4 h1{
+        font-size: 32px;
+    }
+    .conteiner4 p{
+        font-size: 20px;
+        padding-bottom: 40px;
+    }
+
+    .conteiner5{
+        width: 73%;
+        margin: auto;
+    }
+    .conteiner5 h1{
+        font-size: 32px;
+    }
+    .conteiner5 p{
+        font-size: 14px;
+        font-weight: 400;
+        padding-bottom: 88px;
+    }
+
+}
