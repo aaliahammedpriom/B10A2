@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-.main{
+body{
     margin: 0px;
     padding: 0px;
-    width: 100%;;
+    border: 0px;
+    width: 100%;
     font-family: "Inter", sans-serif;
     background: rgb(0,0,0);
 }
@@ -11,7 +12,7 @@
 }
 .navbar{
     width: 73%;
-    margin: 39px auto;
+    margin: 0 auto 39px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -57,7 +58,6 @@
 
 .section{
     width: 100%;
-    height: 100%;
     display: flex;
     justify-content: center;
 }
@@ -193,10 +193,6 @@
     margin: auto;
     text-align: center;
 }
-.habbits-container .imgs{
-   
-   
-}
 .habbits-container img{
     width: 16.66vw;
     border: .34vw solid rgb(30, 29, 29);
@@ -283,11 +279,7 @@
 @media screen and (max-width: 576px){
 
     .main{
-        margin: 0px 20px;
-        padding: 0px;
         width: 576px;
-        font-family: "Inter", sans-serif;
-        background-color: black;
     }
     .navbar{
         width: 353px;
@@ -299,7 +291,6 @@
         font-family: Inter;
         font-size: 36px;
         font-weight: 800;
-        padding: ;
 
     }
     .nav-link{
@@ -324,11 +315,10 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding-left: 20px;
     }
     .section-left{
         width: 352px;
-        margin-right: 60px;
+        margin-left: 20px;
     }
     .section-left h1{
         width:285px ;
@@ -365,6 +355,7 @@
     .section-right img{
         width: 430px;
         height: 600px;
+        margin-left: 20px;
     }
     .section .video-tutorial{
         width: 155px;
