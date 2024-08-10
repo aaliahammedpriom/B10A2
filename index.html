@@ -110,6 +110,55 @@
             <h1>BMI Calculator</h1>
             <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
           </div>
+          <!-- calculator -->
+           <div class="conteiner6">
+            <div class="conteiner6-left">
+                <h1>BMI Calculator Chart</h1>
+                <table>
+                    <tr>
+                        <th>BMI</th>
+                        <th>Weight Status</th>
+                    </tr>
+                    <tr>
+                        <td>Below 18.5</td>
+                        <td> UnderWeight</td>
+                    </tr>
+                    <tr>
+                        <td>18.5 - 24.9</td>
+                        <td>Healthy</td>
+                    </tr>
+                    <tr>
+                        <td>25.0 - 29.9</td>
+                        <td>OverWeight</td>
+                    </tr>
+                    <tr>
+                        <td>30.0 - and Above</td>
+                        <td>Obese</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="conteiner6-right">
+                <h1>Calculate your BMI</h1>
+                <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
+                <form action="">
+                    <input type="number" placeholder="Height/cm">
+                    <input type="number"placeholder="Weight/kg">
+                    <br>
+                    <input type="number" placeholder="Age">
+                    <select name="Sex" id="Sex">
+                        <option value="" disabled selected>Sex</option>
+                        <option value="MAle">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    <br>
+                    <select class="activity" name=" Select an activity factor" id="">
+                        <option value=""disabled selected>Select an activity factor</option>
+                    </select>
+                    <button class="btn1">Calculate</button>
+                </form>
+            </div>
+           </div>
     </main>
 </body>
 </html>
