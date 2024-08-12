@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
 body{
     margin: 0px;
     padding: 0px;
@@ -17,7 +18,7 @@ body{
     justify-content: space-between;
     align-items: center;
 }
-.nav-title{
+.nav-title h1{
     color: rgb(230, 83, 60);
     font-size: 2.5vw;
     font-weight: 800;
@@ -68,10 +69,15 @@ body{
 }
 .section-left h1{
     color: rgb(255, 255, 255);
-    font-size: 5.27vw;
+    font-size: 5.41vw;
     font-weight: 900;
     width: 86.81%;
-    
+}
+span{
+    color: rgb(255, 255, 255);
+    font-family: 'Miama', sans-serif;
+    font-size: 10vw;
+    font-weight: 400;
 }
 .section-left p{
     color: rgba(255, 255, 255, 0.5);
@@ -104,9 +110,12 @@ body{
     width: 100%;
     height: 100%;
 }
-.section .video-tutorial{
-    width: 14.30%;
-    height:13.42% ;
+.section-right .video-tutorial{
+    position: absolute;
+    top: 39vw;
+    left: 53vw;
+    width: 16.30vw;
+    height:7vw;
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
@@ -117,34 +126,34 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-    position: absolute;
-    left: 55.06%;
-}
-.section .video-tutorial .dot{
+}    
+.section .section-right .video-tutorial .dot{
+    width: 50%;
     background-color: rgb(230, 83, 60);
-    width: 40px;
-    height: 40px;
+    width: 2.78vw;
+    height: 2.78vw;
     border-radius: 50%;
-}
-.section .video-tutorial title{
-    width: 74px;
-    height:38px ;
 }
 .section .video-tutorial h3{
     color: rgb(250, 250, 249);
-    font-size: 16px;
+    font-size: 1.67vw;
     font-weight: 900;
     text-align: left;
 }
 .section .video-tutorial p{
     color: rgba(239, 237, 232, 0.65);
-    font-size: 11px;
+    font-size: 1.1vw;
     font-weight: 400;
 }
 
 .section .workout-tutorial{
-    width: 133px;
-    height:67px ;
+    position: absolute;
+    top: 18vw;
+    left: 78vw;
+    width: 200px;
+    height: 96px;
+    width: 13.40vw;
+    height: 6.8vw ;
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
@@ -153,19 +162,16 @@ body{
     text-align: center;
     align-items: center;
     padding: 5px;
-    position: absolute;
-    left: 75%;
-    top: 266px;
 }
 .section .workout-tutorial h3{
     color: rgb(250, 250, 249);
-    font-size: 27.5px;
+    font-size: 2.78vw;
     font-weight: 900;
     margin: 0px;
 }
 .section .workout-tutorial p{
     color: rgba(239, 237, 232, 0.65);
-    font-size: 9px;
+    font-size: 0.90vw;
     font-weight: 400;
 }
 .habbits{
@@ -284,7 +290,7 @@ body{
 }
 .conteiner6-left{
     width: 46.80%;
-    margin-left: 8%;
+    padding-left: 10%;
     
 }
 .conteiner6-left h1{
@@ -331,7 +337,7 @@ body{
 .conteiner6-right input{
     color: rgba(255, 255, 255, 0.6);
     background-color: rgba(255, 255, 255, 0.1);
-    width: 19.58vw;
+    width: 18.9vw;
     align-items: center;
     border: none;
     padding: 0.83vw 2.78vw 0.83vw 1.389vw;
@@ -345,7 +351,7 @@ body{
 }
 .conteiner6-right select{
     background-color: rgba(255, 255, 255, 0.1);
-    width: 23.65vw;
+    width: 23.2vw;
     align-items: center;
     border: none;
     padding: 0.83vw 2.78vw 0.83vw 1.389vw;
@@ -356,7 +362,7 @@ body{
     font-weight: 400;
 }
 .conteiner6-right .activity{
-    width: 47.9167vw;
+    width: 46.6vw;
     margin-bottom: 40px;
 }
 
@@ -366,24 +372,24 @@ body{
     margin: auto;
     background-color: rgba(255, 255, 255, 0.1);
     display: grid;
-    grid-template-columns: repeat(3 , 30.75%);
+    grid-template-columns: repeat(3 , 1fr);
     justify-content: center;
     align-items: center;
-    /* padding: 1.38vw 0px 1.38vw 0px; */
+    padding: 1.38vw 0px 1.38vw 0px;
 }
 .grid{
-    margin: 10% %;
+    padding: 0% 5%;
     height: 100%;
 }
 .grid img{
     width: 100%;
-    height: 100%;
+    height: 90%;
     border-radius: 1.25vw;
 }
 .grid-text{
     position:relative;
-    top: -90px;
-    left: 10px;
+    top: -25%;
+    left: 2%;
 }
 .grid-text h3{
     color: rgb(255, 255, 255);
@@ -396,6 +402,66 @@ body{
     font-weight: 400;
 }
 
+footer{ 
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.footer{
+    width: 73.61%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+.footer-2fr h1{
+    color: rgb(230, 83, 60);
+    font-size: 4.86vw;
+    font-style: italic;
+    font-weight: 800;
+}
+.footer-2fr p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.97vw;
+    font-weight: 400;
+    margin-right: 50px;
+}
+.footer-1fr h2{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+}
+.footer-1fr ul{
+    font-size: 23px;
+    font-weight: 400;
+    list-style: none;
+    padding: 0;
+}
+.footer-1fr a{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.597vw;
+    font-weight: 400;
+    text-decoration: none;
+}
+.hr{
+    text-align: center;
+}
+hr{
+    display: flex;
+    width: 73vw;
+    color: rgba(255, 255, 255, 0.1);
+    border: 1px solid;
+    margin-bottom: 20px;
+}
+small{
+    font-size: 1.389vw;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 20px;
+}
+
 @media screen and (max-width: 576px){
 
     .main{
@@ -406,9 +472,8 @@ body{
         display: flex;
         margin: 0px 20px;
     }
-    .nav-title{
+    .nav-title h1{
         color: rgb(230, 83, 60);
-        font-family: Inter;
         font-size: 36px;
         font-weight: 800;
 
@@ -628,7 +693,10 @@ body{
         border-radius: 18px;
         margin: 30px auto;
     }
-
+    .conteiner4{
+        width: 73%;
+        margin:auto;
+    }
     .conteiner4 h1{
         font-size: 32px;
     }
@@ -657,8 +725,9 @@ body{
         margin: auto;
     }
     .conteiner6-left{
-        width: 75%;
-        margin: auto;   
+        width: 73%;
+        margin: auto;
+        padding: 0px;   
     }
     .conteiner6-left h1{
         font-size: 32px;
@@ -711,4 +780,46 @@ body{
         margin-bottom: 40px;
     }
 
+    .conteiner7{
+        grid-template-columns: repeat(1 , 1fr);
+    }
+    .grid-text h3{
+        font-size: 20px;
+    }
+    .grid-text p{
+        font-size: 16px;
+    }
+
+
+    footer{ 
+        background-color: rgba(255, 255, 255, 0.1);
+        width: 100%;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+    .footer{
+        grid-template-columns:1fr;
+    }
+    .footer-2fr h1{
+        font-size: 70px;
+    }
+    .footer-2fr p{
+        font-size: 14px;
+    }
+    .footer-1fr h2{
+        font-size: 32px;
+    }
+    .footer-1fr a{
+        font-size: 23px;
+    }
+    .hr{
+        text-align: left;
+    }
+    small{
+        font-size: 20px;
+    }
 }
+
