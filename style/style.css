@@ -280,9 +280,10 @@ body{
     width: 100%;
     background-color: rgb(34, 34, 34);
     display: flex;
+    margin: 50px 0px;
 }
 .conteiner6-left{
-    width: 40%;
+    width: 46.80%;
     margin-left: 8%;
     
 }
@@ -293,69 +294,107 @@ body{
 }
 .conteiner6-left table{
     width: 43%;
-    border: 1px solid gray;
+    border: 0.069vw solid gray;
     border-collapse: collapse;
 }
 .conteiner6-left table th{
     color: rgb(255, 255, 255);
     font-size: 1.11vw;
     font-weight: 500;
-    padding: 10px 80px;
-    border: 1px solid gray;
+    padding: 0.69vw 5.55vw;
+    border: 0.069vw solid gray;
 }
 .conteiner6-left table td{
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.97vw;
     font-weight: 400;
-    padding: 10px 35px;
-    border: 1px solid gray;
+    padding: 0.69vw 2.43vw;
+    border: 0.069vw solid gray;
 }
 .conteiner6-right{
-    width: 60%;
+    width: 53.2%;
+    margin-right: 10px;
 }
 .conteiner6-right h1{
     color: rgb(255, 255, 255);
     font-size: 1.94vw;
     font-weight: 900;
-    margin-left: 6px;
+    margin-left: 0.41vw;
 }
 .conteiner6-right p{
     color: rgba(255, 255, 255, 0.5);
     font-size: 1.35vw;
     font-weight: 400;
-    margin-left: 6px;
+    margin-left: 0.41vw;
+    padding-right: 0.069vw;
 }
 .conteiner6-right input{
     color: rgba(255, 255, 255, 0.6);
     background-color: rgba(255, 255, 255, 0.1);
-    width: 220px;
+    width: 19.58vw;
     align-items: center;
     border: none;
-    padding: 12px 40px 12px 20px;
-    margin: 6px 6px;
+    padding: 0.83vw 2.78vw 0.83vw 1.389vw;
+    margin: 0.069vw 0.069vw;
     border-radius: 8px;
 }
 .conteiner6-right input::placeholder{
     color: rgba(255, 255, 255, 0.6);
-    font-size: 16px;
+    font-size: 1.1vw;
     font-weight: 400;
 }
 .conteiner6-right select{
     background-color: rgba(255, 255, 255, 0.1);
-    width: 280px;
+    width: 23.65vw;
     align-items: center;
     border: none;
-    padding: 12px 40px 12px 20px;
-    margin: 6px 6px;
+    padding: 0.83vw 2.78vw 0.83vw 1.389vw;
+    margin: .069vw 0.069vw;
     border-radius: 8px;
     color: rgba(255, 255, 255, 0.6);
-    font-size: 16px;
+    font-size: 1.1vw;
     font-weight: 400;
 }
 .conteiner6-right .activity{
-    width: 575px;
+    width: 47.9167vw;
+    margin-bottom: 40px;
 }
 
+.conteiner7{
+    width: 73.61%;
+    border-radius: 1.25vw;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: grid;
+    grid-template-columns: repeat(3 , 30.75%);
+    justify-content: center;
+    align-items: center;
+    /* padding: 1.38vw 0px 1.38vw 0px; */
+}
+.grid{
+    margin: 10% %;
+    height: 100%;
+}
+.grid img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1.25vw;
+}
+.grid-text{
+    position:relative;
+    top: -90px;
+    left: 10px;
+}
+.grid-text h3{
+    color: rgb(255, 255, 255);
+    font-size: 1.25vw;
+    font-weight: 600;
+}
+.grid-text p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .97vw;
+    font-weight: 400;
+}
 
 @media screen and (max-width: 576px){
 
@@ -419,7 +458,7 @@ body{
     .btn1{
         border-radius: 28px;
         background-color: rgb(230, 83, 60);
-        width: 169px;
+        width: 224px;
         height: 54px;
         padding: 11px 27px;
         margin: 0px 10px;
@@ -556,7 +595,7 @@ body{
         margin-bottom: 36px;
     }
     .conteiner3{
-        width: 73.61vw;
+        width: 90vw;
         border-radius: 18px;
         background: rgb(34, 34, 34);
         display: flex;
@@ -609,6 +648,67 @@ body{
         font-size: 14px;
         font-weight: 400;
         padding-bottom: 88px;
+    }
+
+    .conteiner6{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .conteiner6-left{
+        width: 75%;
+        margin: auto;   
+    }
+    .conteiner6-left h1{
+        font-size: 32px;
+    }
+    .conteiner6-left table{
+        width: 100%;
+        border: 1px solid gray;
+    }
+    .conteiner6-left table th{
+        font-size: 16px;
+        font-weight: 500;
+        padding: 5px 10px;
+        border: 1px solid gray;
+    }
+    .conteiner6-left table td{
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 14px;
+        font-weight: 400;
+        padding: 5px 10px;
+        border: 0.069vw solid gray;
+    }
+    .conteiner6-right{
+        width: 75%;
+        margin: 40px auto;
+    }
+    .conteiner6-right h1{
+        font-size: 36px;
+    }
+    .conteiner6-right p{
+        font-size: 14px;
+    }
+    .conteiner6-right input{
+        width: 170px;
+        font-size: 16px;
+        padding: 5px 10px;
+        margin: 6px;
+        border-radius: 8px;
+    }
+    .conteiner6-right input::placeholder{
+        font-size: 16px;
+    }
+    .conteiner6-right select{
+        width: 190px;
+        padding: 5px 10px;
+        margin: 6px;
+        font-size: 16px;
+    }
+    .conteiner6-right .activity{
+        width: 395px;
+        margin-bottom: 40px;
     }
 
 }
