@@ -1,45 +1,24 @@
 @media screen and (max-width: 576px){
 
     body{
-        margin: 0px;
-        padding: 0px;
         width: 576px;
-        font-family: "Inter", sans-serif;
-        background: rgb(0,0,0);
     }
     .navbar{
         width: 353px;
-        display: flex;
         margin: 0px 20px;
     }
     .nav-title h1{
-        color: rgb(230, 83, 60);
         font-size: 36px;
-        font-weight: 800;
-
     }
     .nav-link{
         width: 320px;
-        border: 1px solid rgba(255, 255, 255, 0.1);
-        border-radius: 27px;
-        padding: 4px;
-    }
-    .nav-link > ul{
-        display: flex;
-        list-style-type: none;
-        padding: 0px;
-        
     }
     .nav-link a{
-        text-decoration: none;
-        color: rgb(255, 255, 255);
         padding-right: 32px;
     }
     
     .section{
-        display: flex;
         flex-direction: column;
-        justify-content: center;
     }
     .section-left{
         width: 352px;
@@ -47,193 +26,110 @@
     }
     .section-left h1{
         width:285px ;
-        color: rgb(255, 255, 255);
         font-size: 36px;
-        font-weight: 900;
     }
     span{
-        font-size: 10vw;
+        font-size: 36px;
     }
     .section-left p{
         width: 274px;
-        color: rgba(255, 255, 255, 0.5);
         font-size: 16px;
-        font-weight: 400;
     }
     .btn-flex{
         display: flex;
     }
     .btn1{
         border-radius: 28px;
-        background-color: rgb(230, 83, 60);
         width: 224px;
         height: 54px;
         padding: 11px 27px;
-        margin: 0px 10px;
-        color: rgb(255, 255, 255);
         font-size: 12px;
-        font-weight: 600;
-    }
-    .section-left .btn2{
-        background-color: black;
-        box-sizing: border-box;
-        border: 1px solid rgb(255, 255, 255);
-    
     }
     .section-right img{
         width: 430px;
         height: 600px;
         margin-left: 20px;
     }
-    .section .video-tutorial{
-        width: 155px;
-        height:66px ;
-        box-sizing: border-box;
-        border: 1px solid rgba(255, 255, 255, 0.1);
-        border-radius: 12px;
-        backdrop-filter: blur(20px);
-        background: rgba(48, 48, 48, 0.54);
-        display: flex;
-        text-align: center;
-        align-items: center;
-        justify-content: space-between;
-        padding: 10px;
+    .section-right .video-tutorial{
         position: absolute;
-        left: 50px;
-        top: 750px;
-    }
-    .section .video-tutorial .dot{
-        background-color: rgb(230, 83, 60);
-        width: 27.5px;
-        height: 27.5px;
-        border-radius: 50%;
-    }
-    .section .video-tutorial title{
-        width: 74px;
-        height:38px ;
+        top: 850px;
+        left: 3vw;
+        width: 155px;
+        height:72px;
+    }    
+    .section .section-right .video-tutorial .dot{
+        width: 50%;
+        width: 30px;
+        height: 30px;
     }
     .section .video-tutorial h3{
-        color: rgb(250, 250, 249);
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 900;
         text-align: left;
     }
     .section .video-tutorial p{
-        color: rgba(239, 237, 232, 0.65);
-        font-size: 11px;
-        font-weight: 400;
+        font-size: 12px;
     }
+
     .section .workout-tutorial{
-        width: 145px;
-        height:66px ;
-        box-sizing: border-box;
-        border: 1px solid rgba(255, 255, 255, 0.1);
-        border-radius: 12px;
-        backdrop-filter: blur(20px);
-        background: rgba(48, 48, 48, 0.54);
-        text-align: center;
-        align-items: center;
-        padding: 5px;
         position: absolute;
-        left: 284px;
-        top: 580px;
+        top: 550px;
+        left: 300px;
+        width: 145px;
+        height: 74px;
     }
     .section .workout-tutorial h3{
-        color: rgb(250, 250, 249);
-        font-size: 27.5px;
-        font-weight: 900;
-        margin: 0px;
+        font-size: 30px;
     }
     .section .workout-tutorial p{
-        color: rgba(239, 237, 232, 0.65);
-        font-size: 9px;
-        font-weight: 400;
+        font-size: 10px;
     }
     .habbits{
         width: 338px;
     }
     .habbits > h1{
-        color: rgb(255, 255, 255);
         font-size: 37px;
-        font-weight: 900;
-        margin-top: 5px;
     }
     .habbits > p{
         width: 231px;
-        color: rgba(255, 255, 255, 0.5);
-        font-family: Inter;
         font-size: 10px;
-        font-weight: 400;
-        margin-bottom: 58px;
     }
     .habbits-container{
-        width: 231px;
-        display: flex;
+        width: 300px;
         flex-direction: column;
-        margin: auto;
-        text-align: center;
     
-    }
-    .habbits-container-img{
-        width: 240px;
-        margin: auto;
-    }
-    .habbits-container .imgs{
-        width: 150px;
-        height: 150px;
-        margin: auto;
     }
     .habbits-container img{
         width: 240px;
         height: 240px;
-        border-radius: 50%;
         border: 5px solid rgb(30, 29, 29);
     }
     .habbits-container h3{
-        color: rgb(255, 255, 255);
-        font-family: Inter;
         font-size: 18px;
-        font-weight: 600;
-        margin-top: 25px;
     }
     .habbits-container p{
-        color: rgba(255, 255, 255, 0.5);
         font-size: 14px;
-        font-weight: 400;
         margin-bottom: 36px;
     }
     .conteiner3{
-        width: 90vw;
-        border-radius: 18px;
-        background: rgb(34, 34, 34);
-        display: flex;
+        width: 353px;
         flex-direction: column;
-        align-items: center;
-        margin: auto;
     }
     .conteiner3-left{
-        width: 80%;
+        width: 90%;
         margin: auto;
     }
     .conteiner3-left h1{
-        color: rgb(255, 255, 255);
         font-size: 32px;
-        font-weight: 900;
     }
     .conteiner3-left p{
-        color: rgba(255, 255, 255, 0.5);
         font-size: 14px;
-        font-weight: 400;
     }
     .conteiner3-right{
         width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
     .conteiner3-right img{
-        width: 80%;
-        border-radius: 18px;
+        width: 90%;
         margin: 30px auto;
     }
     .conteiner4{
@@ -257,15 +153,11 @@
     }
     .conteiner5 p{
         font-size: 14px;
-        font-weight: 400;
-        padding-bottom: 88px;
     }
 
     .conteiner6{
         width: 100%;
-        display: flex;
         flex-direction: column;
-        margin: auto;
     }
     .conteiner6-left{
         width: 73%;
@@ -277,7 +169,6 @@
     }
     .conteiner6-left table{
         width: 100%;
-        border: 1px solid gray;
     }
     .conteiner6-left table th{
         font-size: 16px;
@@ -286,11 +177,8 @@
         border: 1px solid gray;
     }
     .conteiner6-left table td{
-        color: rgba(255, 255, 255, 0.5);
         font-size: 14px;
-        font-weight: 400;
-        padding: 5px 10px;
-        border: 0.069vw solid gray;
+        text-align: center;
     }
     .conteiner6-right{
         width: 75%;
@@ -333,16 +221,6 @@
         font-size: 16px;
     }
 
-
-    footer{ 
-        background-color: rgba(255, 255, 255, 0.1);
-        width: 100%;
-        margin-top: 50px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-bottom: 20px;
-    }
     .footer{
         grid-template-columns:1fr;
     }

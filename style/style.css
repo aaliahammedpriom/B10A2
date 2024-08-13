@@ -37,7 +37,6 @@ body{
     border-radius: 46px;
     background: rgb(230, 83, 60);
     align-items: center;
-    
 }
 .nav-link > ul{
     display: flex;
@@ -149,8 +148,6 @@ span{
     position: absolute;
     top: 18vw;
     left: 78vw;
-    width: 200px;
-    height: 96px;
     width: 13.40vw;
     height: 6.8vw ;
     box-sizing: border-box;
@@ -460,5 +457,3 @@ small{
     color: rgba(255, 255, 255, 0.5);
     line-height: 20px;
 }
-
-
