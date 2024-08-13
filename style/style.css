@@ -8,6 +8,7 @@ body{
     background: rgb(0,0,0);
 }
 .header-bg{
+
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119,0.2) 100%);
 }
 .navbar{
@@ -449,11 +450,9 @@ hr{
     width: 73vw;
     color: rgba(255, 255, 255, 0.1);
     border: 1px solid;
-    margin-bottom: 20px;
 }
 small{
     font-size: 1.389vw;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
-    line-height: 20px;
 }

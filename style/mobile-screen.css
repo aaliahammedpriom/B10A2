@@ -1,7 +1,6 @@
 @media screen and (max-width: 576px){
-
     body{
-        width: 576px;
+        width: 100%;
     }
     .navbar{
         width: 353px;
@@ -21,8 +20,8 @@
         flex-direction: column;
     }
     .section-left{
-        width: 576px;
-        margin-left: 20px;
+        width: 533px;
+        margin: auto;
     }
     .section-left h1{
         width: 60%;
