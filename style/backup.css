@@ -1,13 +1,16 @@
 @media screen and (max-width: 576px){
+    body{
+        width: 100%;
+    }
     .navbar{
-        width: 93%;
+        width: 353px;
         margin: 0px 20px;
     }
     .nav-title h1{
         font-size: 36px;
     }
     .nav-link{
-        width: 100%;
+        width: 320px;
     }
     .nav-link a{
         padding-right: 32px;
@@ -17,7 +20,7 @@
         flex-direction: column;
     }
     .section-left{
-        width: 93%;
+        width: 533px;
         margin: auto;
     }
     .section-left h1{
@@ -28,7 +31,7 @@
         font-size: 48px;
     }
     .section-left p{
-        width: 65%;
+        width: 60%;
         font-size: 16px;
     }
     .btn-flex{
@@ -42,8 +45,7 @@
         font-size: 12px;
     }
     .section-right{
-        width: 93%;
-        margin: auto;
+        width: 576px;
     }
     .section-right img{
         width: 100%;
@@ -86,7 +88,7 @@
         width: 338px;
     }
     .habbits > h1{
-        font-size: 32px;
+        font-size: 37px;
     }
     .habbits > p{
         width: 231px;
