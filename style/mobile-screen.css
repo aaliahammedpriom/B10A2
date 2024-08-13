@@ -8,33 +8,13 @@
     font-size: 6.25vw;
 }
 .nav-link{
-    width: 50%;
-    height: 5vw;
-}
-.nav-link button{
-    width: 160%;
-    height: 100%;
-    border-radius: 46px;
-    background: rgb(230, 83, 60);
-    align-items: center;
-}
-.nav-link > ul{
-    display: flex;
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    padding-left: 0px;
-    align-items: center;
-    margin: auto;
-    height: 100%;
-}
-.nav-link a{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    padding-right: 5px;
-    font-size: 1.125vw;
+    display: none;
 }
 
+.hamburger{
+    display: block;
+    color: rgb(255, 255, 255);;
+}
 .section{
     flex-direction: column;
 }
@@ -171,6 +151,7 @@ span{
 .conteiner4 p{
     font-size: 3.56vw;
 }
+
 
 .conteiner5{
     width: 90%;
