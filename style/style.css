@@ -176,13 +176,12 @@ span{
     text-align: center;
     margin: auto;
 }
-.habbits > h1{
+.habbits h1{
     color: rgb(255, 255, 255);
     font-size: 3.33vw;
     font-weight: 900;
 }
-.habbits > p{
-    width: 462px;
+.habbits p{
     color: rgba(255, 255, 255, 0.5);
     font-size: .972vw;
     font-weight: 400;
@@ -251,6 +250,7 @@ span{
 .conteiner4{
     width: 73.61vw;
     margin: 50px auto;
+    text-align: center;
 }
 .conteiner4 h1{
     color: rgb(255, 255, 255);
@@ -262,6 +262,49 @@ span{
     font-size: 1.25vw;
     font-weight: 400;
 }
+.conteiner4 div{
+    display: flex;
+    justify-content: space-between;
+}
+.conteiner4 .box{
+    width: 32%;
+    height: 15vw;
+    border-radius: 18px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    background-color: rgba(48, 48, 48, 0.1);
+}
+.conteiner4 .box .box-left{
+    width: 30%;
+    align-items: center;
+    border-radius: 0%;
+    margin: 10px;
+}
+.conteiner4 .box .box-left h2{
+    font-size: 2vw;
+    color: rgb(230, 83, 60);
+    font-style: italic;
+    font-weight: 900;
+    rotate: -90deg;
+}
+
+.conteiner4 .box .box-right{
+    width: 70%;
+    align-items: center;
+    text-align: right;
+}
+.conteiner4  ul{
+    padding: 0px;
+    
+}
+.conteiner4 .box .box-right ul li{
+    font-size: 1.25vw;
+    color: rgb(255, 255, 255, 0.7);
+    list-style-type: none;
+
+}
+
+
 
 .conteiner5{
     width: 46.6%;
