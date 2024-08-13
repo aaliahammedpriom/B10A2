@@ -1,243 +1,304 @@
 @media screen and (max-width: 576px){
-    .navbar{
-        width: 93%;
-        margin: 0px 20px;
-    }
-    .nav-title h1{
-        font-size: 36px;
-    }
-    .nav-link{
-        width: 100%;
-    }
-    .nav-link a{
-        padding-right: 32px;
-    }
+
+.navbar{
+    width: 90%;
+    margin: auto;
+}
+.nav-title h1{
+    font-size: 6.25vw;
+}
+.nav-link{
+    width: 50%;
+    height: 5vw;
+}
+.nav-link button{
+    width: 160%;
+    height: 100%;
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+    align-items: center;
+}
+.nav-link > ul{
+    display: flex;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+    align-items: center;
+    margin: auto;
+    height: 100%;
+}
+.nav-link a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding-right: 5px;
+    font-size: 1.125vw;
+}
+
+.section{
+    flex-direction: column;
+}
+.section-left{
+    width: 90%;
+    margin: auto;
+}
+.section-left h1{
+    font-size: 6.25vw;
+    width: 65%;
+}
+span{
+    font-size: 12vw;
+    font-weight: 700;
+}
+.section-left p{
+    font-size: 2.78vw;
+    font-weight: 400;
+    width: 75%;
+}
+.btn1{
+    width: 29.34vw;
+    height: 8vw;
+}
+
+.section-right{
+    width:90% ;
+    margin: auto;
+}
+.section-right img{
+    width: 100%;
+    height: 100%;
+}
+.section-right .video-tutorial{
+    position: absolute;
+    top: 180vw;
+    left: 3vw;
+    width: 39vw;
+    height:18vw;
+}    
+.section .section-right .video-tutorial .dot{
+    width: 7.6vw;
+    height: 7.6vw;
+}
+.section .video-tutorial h3{
+    font-size: 4.61vw;
+}
+.section .video-tutorial p{
+    font-size: 3.05vw;
+}
+
+.section .workout-tutorial{
+    position: absolute;
+    top: 100vw;
+    left: 60vw;
+    width: 37vw;
+    height: 18.82vw ;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+}
+.section .workout-tutorial h3{
+    font-size: 7.69vw;
+}
+.section .workout-tutorial p{
+    font-size: 2.50vw;
+}
+.habbits{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+.habbits h1{
+    font-size: 8.14vw;
+}
+.habbits p{
+    width: 85%;
+    font-size: 3.56vw;
+}
+.habbits .habbits-container{
+    width: 100%;
+    flex-direction: column;
+}
+.habbits-container img{
+    width: 60vw;
+    border: .34vw solid rgb(30, 29, 29);
+    border-radius: 50%;
+    margin: auto .5vw;
+}
+.habbits-container h3{
+    font-size: 4.5vw;
+}
+.habbits-container p{
+    font-size: 3.56vw;
+}
+
+.conteiner3{
+    width: 90%;
+    flex-direction: column;
+    margin: auto;
+}
+.conteiner3-left{
+    width: 90%;
+    margin: auto;
+}
+.conteiner3-left h1{
+    font-size: 8.14vw;
+}
+.conteiner3-left p{
+    font-size: 3.56vw;
+}
+.conteiner3-right{
+    width: 90%;
+    margin: 5vw auto;
+}
+.conteiner3-right img{
+    border-radius:1.25vw ;
+    width: 100%;
+    height: 80%;
+}
+
+.conteiner4{
+    width: 90%;
+    margin: auto;
+}
+.conteiner4 h1{
+    font-size: 8.14vw;
+}
+.conteiner4 p{
+    font-size: 3.56vw;
+}
+
+.conteiner5{
+    width: 90%;
+    margin: auto;
+}
+.conteiner5 h1{
+    font-size: 8.14vw;
+}
+.conteiner5 p{
+    font-size: 3.56vw;
+    padding-bottom: 0px;
+}
+
+.conteiner6{
+    width: 100%;
+    flex-direction: column;
+    margin: 0px;
+    padding: 30px 0px;
+}
+.conteiner6-left{
+    width: 90%;
+    padding: 0px;
+    margin: auto;
     
-    .section{
-        flex-direction: column;
-    }
-    .section-left{
-        width: 93%;
-        margin: auto;
-    }
-    .section-left h1{
-        width: 60%;
-        font-size: 48px;
-    }
-    span{
-        font-size: 48px;
-    }
-    .section-left p{
-        width: 65%;
-        font-size: 16px;
-    }
-    .btn-flex{
-        display: flex;
-    }
-    .btn1{
-        border-radius: 28px;
-        width: 224px;
-        height: 54px;
-        padding: 11px 27px;
-        font-size: 12px;
-    }
-    .section-right{
-        width: 93%;
-        margin: auto;
-    }
-    .section-right img{
-        width: 100%;
-    }
-    .section-right .video-tutorial{
-        position: absolute;
-        top: 1150px;
-        left: 3vw;
-        width: 155px;
-        height:72px;
-    }    
-    .section .section-right .video-tutorial .dot{
-        width: 50%;
-        width: 30px;
-        height: 30px;
-    }
-    .section .video-tutorial h3{
-        font-size: 18px;
-        font-weight: 900;
-        text-align: left;
-    }
-    .section .video-tutorial p{
-        font-size: 12px;
-    }
+}
+.conteiner6-left h1{
+    font-size: 4vw;
+}
+.conteiner6-left table{
+    width: 100%;
+    border: 0.25vw;
+}
+.conteiner6-left table th{
+    font-size: 4vw;
+    border: 0.069vw solid gray;
+}
+.conteiner6-left table td{
+    font-size: 3.56vw;
+    padding: 0.69vw 2.43vw;
+    border: 0.069vw solid gray;
+}
+.conteiner6-right{
+    width: 90%;
+    margin: auto;
+}
+.conteiner6-right h1{
+    font-size: 4vw;
+}
+.conteiner6-right p{
+    font-size: 3.56vw;
+}
+.conteiner6-right input{
+    width: 40vw;
+    height: 6vw;
+}
+.conteiner6-right input::placeholder{
+    font-size: 4vw;
+}
+.conteiner6-right select{
+    width: 44vw;
+    height: 8vw;
+    font-size: 4vw;
+    margin-top: 5px;
+}
+.conteiner6-right .activity{
+    width: 90vw;
+}
 
-    .section .workout-tutorial{
-        position: absolute;
-        top: 720px;
-        left: 370px;
-        width: 145px;
-        height: 74px;
-    }
-    .section .workout-tutorial h3{
-        font-size: 30px;
-    }
-    .section .workout-tutorial p{
-        font-size: 10px;
-    }
-    .habbits{
-        width: 338px;
-    }
-    .habbits > h1{
-        font-size: 32px;
-    }
-    .habbits > p{
-        width: 231px;
-        font-size: 10px;
-    }
-    .habbits-container{
-        width: 300px;
-        flex-direction: column;
-    
-    }
-    .habbits-container img{
-        width: 240px;
-        height: 240px;
-        border: 5px solid rgb(30, 29, 29);
-    }
-    .habbits-container h3{
-        font-size: 18px;
-    }
-    .habbits-container p{
-        font-size: 14px;
-        margin-bottom: 36px;
-    }
-    .conteiner3{
-        width: 353px;
-        flex-direction: column;
-    }
-    .conteiner3-left{
-        width: 90%;
-        margin: auto;
-    }
-    .conteiner3-left h1{
-        font-size: 32px;
-    }
-    .conteiner3-left p{
-        font-size: 14px;
-    }
-    .conteiner3-right{
-        width: 100%;
-    }
-    .conteiner3-right img{
-        width: 90%;
-        margin: 30px auto;
-    }
-    .conteiner4{
-        width: 73%;
-        margin:auto;
-    }
-    .conteiner4 h1{
-        font-size: 32px;
-    }
-    .conteiner4 p{
-        font-size: 20px;
-        padding-bottom: 40px;
-    }
+.conteiner7{
+    width: 90%;
+    grid-template-columns:1fr;
+    align-items: center;
+    gap: 20px;
+    padding: 20px auto;
+}
+.grid{
+    width: 90%;
+    padding: 0px;
+    margin: auto;
+}
+.grid img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1.25vw;
+}
+.grid-text{
+    position:relative;
+    top: -25%;
+    left: 2%;
+}
+.grid-text h3{
+    font-size: 4vw;
+}
+.grid-text p{
+    font-size: 3.6vw;
+}
 
-    .conteiner5{
-        width: 73%;
-        margin: auto;
-    }
-    .conteiner5 h1{
-        font-size: 32px;
-    }
-    .conteiner5 p{
-        font-size: 14px;
-    }
-
-    .conteiner6{
-        width: 100%;
-        flex-direction: column;
-    }
-    .conteiner6-left{
-        width: 73%;
-        margin: auto;
-        padding: 0px;   
-    }
-    .conteiner6-left h1{
-        font-size: 32px;
-    }
-    .conteiner6-left table{
-        width: 100%;
-    }
-    .conteiner6-left table th{
-        font-size: 16px;
-        font-weight: 500;
-        padding: 5px 10px;
-        border: 1px solid gray;
-    }
-    .conteiner6-left table td{
-        font-size: 14px;
-        text-align: center;
-    }
-    .conteiner6-right{
-        width: 75%;
-        margin: 40px auto;
-    }
-    .conteiner6-right h1{
-        font-size: 36px;
-    }
-    .conteiner6-right p{
-        font-size: 14px;
-    }
-    .conteiner6-right input{
-        width: 170px;
-        font-size: 16px;
-        padding: 5px 10px;
-        margin: 6px;
-        border-radius: 8px;
-    }
-    .conteiner6-right input::placeholder{
-        font-size: 16px;
-    }
-    .conteiner6-right select{
-        width: 190px;
-        padding: 5px 10px;
-        margin: 6px;
-        font-size: 16px;
-    }
-    .conteiner6-right .activity{
-        width: 395px;
-        margin-bottom: 40px;
-    }
-
-    .conteiner7{
-        grid-template-columns: repeat(1 , 1fr);
-    }
-    .grid-text h3{
-        font-size: 20px;
-    }
-    .grid-text p{
-        font-size: 16px;
-    }
-
-    .footer{
-        grid-template-columns:1fr;
-    }
-    .footer-2fr h1{
-        font-size: 70px;
-    }
-    .footer-2fr p{
-        font-size: 14px;
-    }
-    .footer-1fr h2{
-        font-size: 32px;
-    }
-    .footer-1fr a{
-        font-size: 23px;
-    }
-    .hr{
-        text-align: left;
-    }
-    small{
-        font-size: 20px;
-    }
+footer{ 
+    width: 100%;
+    flex-direction: column;
+}
+.footer{
+    width: 90%;
+    grid-template-columns:1fr;
+}
+.footer-2fr h1{
+    font-size: 17.81vw;
+}
+.footer-2fr p{
+    font-size: 3.56vw;
+}
+.footer-1fr h2{
+    font-size: 8.14vw;
+}
+.footer-1fr ul{
+    font-size: 5.85vw;
+}
+.footer-1fr a{
+    font-size: 5.85vw;
+}
+.hr{
+    text-align: left;
+}
+hr{
+    display: flex;
+    width: 90vw;
+}
+small{
+    font-size: 5vw;
+}
 }
