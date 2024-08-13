@@ -21,18 +21,18 @@
         flex-direction: column;
     }
     .section-left{
-        width: 352px;
+        width: 576px;
         margin-left: 20px;
     }
     .section-left h1{
-        width:285px ;
-        font-size: 36px;
+        width: 60%;
+        font-size: 48px;
     }
     span{
-        font-size: 36px;
+        font-size: 48px;
     }
     .section-left p{
-        width: 274px;
+        width: 60%;
         font-size: 16px;
     }
     .btn-flex{
@@ -45,14 +45,15 @@
         padding: 11px 27px;
         font-size: 12px;
     }
+    .section-right{
+        width: 576px;
+    }
     .section-right img{
-        width: 430px;
-        height: 600px;
-        margin-left: 20px;
+        width: 100%;
     }
     .section-right .video-tutorial{
         position: absolute;
-        top: 850px;
+        top: 1150px;
         left: 3vw;
         width: 155px;
         height:72px;
@@ -73,8 +74,8 @@
 
     .section .workout-tutorial{
         position: absolute;
-        top: 550px;
-        left: 300px;
+        top: 720px;
+        left: 370px;
         width: 145px;
         height: 74px;
     }
